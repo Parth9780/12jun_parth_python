@@ -1,0 +1,20 @@
+2> Explain Types Of Software.
+	--> Software is a collection of information, insturction, and data.
+	--> Software is a three types:-
+		i. system software
+			OS - operating system is a system software.
+				EX. windows, mac os, kali, ext..
+		ii. application software
+			application software are three types-
+			1. mobile application
+			--> application is use for mobile
+				EX. contacts, my file, phone book, ext..
+			2. web application
+			--> web application is like web browser.
+				EX. fire fox, edge, chrome, ext..
+			3. desktop application
+			--> desktop application is like use only decktop.
+				EX. vs code, microsoft, intellij, notepad, oracle, ext..
+		iii. programing software
+			--> programing software is a use of translater to translate a human language to machine language.
+				EX. compiler
