@@ -1,0 +1,14 @@
+1> What Is Software? What Is Software Engineering?
+	--> Software is collection of information, instuction, and data.
+	--> Information is stimuli that has meaning in some context for its receiver.
+		Ex. student : id, books, faculty, ext..
+	--> Instuction is detailed information on how you should use something, do something, etc.
+		Ex. read the instructions on the back of the packet carefully.
+	--> Data is data base the store some information ext..
+	
+	------> SOFTWARE ENGINEERING
+		-->Software engineering is the process of developing, testing and deploying computer applictions.
+		--> Software engineering is degine the software, developing a software are use programing language.
+		--> Software engineering is work on OS (operating system)
+			Ex. windows, mac-os, kali, android, parrot, ext..
+		--> Operating system is a operate the computer system.
