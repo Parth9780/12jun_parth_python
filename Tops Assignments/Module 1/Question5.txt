@@ -1,0 +1,6 @@
+5> What is Flow chart? Create a flowchart to make addition of two numbers.
+	-->  A flowchart is a part of diagram that represents a workflow or process.
+	--> Flowchart is a graphical representation of perticular problem.
+	--> Flowchart can also be defined as a dirammatic representation of an algorithm.
+	--> Algorithm is a step-by-step solving a particular problem.
+	--> A flowchart is a show the flow of process by useing the arrow sign.
