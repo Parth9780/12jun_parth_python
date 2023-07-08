@@ -1,0 +1,13 @@
+(5) What is Flow chart? Create a flowchart to make addition of two numbers.
+    --> a flowchart is a graphical representationof a process, algorithm, or system using various
+    symboles. it graphically displays step-by-step solution.
+    --> it is used to illustrate the sequence of steps or actions requied to complete a task, show
+    decision points, and identify the various outcomes of a process.
+
+    \\ algorithm of two numbers addition:-
+        step 1: start
+        step 2: variable define a,b,sum;
+        step 3: Enter the two number
+        step 4: sum = a+be
+        step 5: print a addition(sum)
+        step 6: stopS

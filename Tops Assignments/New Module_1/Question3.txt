@@ -1,0 +1,35 @@
+(3) What is SDLC? Explain each phase of SDLC.
+    --> SDLC mening of the software devlopment life cycle. and the process is a high level 
+        software creating process.
+    --> sdlc is the process is a multiple phase and defrint work of phases and then create a software.
+        -> 1. Communication phase:
+            -In this phase requirements are gathered.
+            -The problem is specified whit objectives.
+            -The constraints are identified.
+            -The system specification is produced from requirement analysis. this document shoud
+            clearly define the product function.
+        -> 2. planning phase:
+            -planning is critical activity in software devlopment. it include following activities:
+                -cost estimation to find best affordable cost
+                -Task scheduling and timeline management
+                -work organization and team structure designing
+        -> 3. Modeling phase:
+            -the system specification are translated into a software representation. this stage is concerned with:
+                -data structure
+                -software architecture
+                -algorithmic detail
+                -interface representation
+            -hardware requirements are also specified.
+        -> 4. Construction phase:
+            -the implementation and testing
+            -the designs are translated into the software domain
+            -detailed documentation from the design phase can reduce the coding effort.
+            -testing focues on making sure that errors are identified, and the software meets its requirement 
+            specification
+        -> 5. Deployment phase:
+            -after construction software is deliverd the customer, maintenance part is largest and never ending phase.
+            in this phase software is updated to:
+                -meet the needs of customer.
+                -change according to external environment.
+                -correcting errors
+                -enhancing the efficiency

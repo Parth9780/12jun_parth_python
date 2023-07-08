@@ -1,0 +1,33 @@
+(2) Explain types of software.
+    --> the types of software:-
+        -> i. system software-
+            -system software is a types of computer software that acts as an interface between
+            the computer hardware and application software.
+            -system software refers to a type of computer software that is designed to manage and
+            control the hardware and other software application on a computer system.
+            -it also controls the peripherals of computer like monitors, printers, storage devices
+            etc. and to ensure that all software programs run smoothly and efficiently.
+            -Examples of system software include operation system, device drivers, utility programs,
+            and language translators.
+        -> ii. application software-
+            -unlike system software, which manages and controls the computer system's resources, application
+            software is designed to serve the specific needs and requirements of users.
+            -application software is a type of computer software that is designed to perform specific tasks of
+            functions for users.
+            -it is the software that users interact with directly to perform various tasks like creating 
+            documents, browsing the web, or playing games.
+            -it provides a user-friendly interface and a set of features and functions that allow users to
+            perform specific tasks or solve specific problems.
+            -Examples of application software include word processors, spreadsheet programs, web browsers, 
+            reservation system, video players, photo edditors, etc.
+        -> iii. Embedded software-
+            -Embedded software is a software that is embedded in hardware or non-PC devices.
+            -one of the key features of embedded software is its real-time nature. it is often
+            designed to operate in real-time environments, where it must respond quickly and accurately.
+            -this type of software is often devloped using specializaed programming languages and tools.
+            -manufacturers build embedded software into the electronics of cars, telephones, modems, robots, appliances,
+            toys, security systems, pacemakers, televisions and set-top boxes, and digital watches.
+            -Examples of embedded software include traffic control devices, image processing system, navigation
+            software for automotive system etc.
+            -In negative side, embedded software needs high devlopment cost, high complexity, defficulty in upgradation, 
+            limited resources and security issues.
