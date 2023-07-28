@@ -1,26 +1,19 @@
-/* 
-
-     *
-    * * 
-   * * *
-  * * * *
- * * * * *
- 
-*/
 #include<stdio.h>
 int main()
 {
-    int i, j, k;
-    for(i = 5; i > 0; i--)
+    int i, n, sum;
+    printf("Enter the n value: ");
+    scanf("%d",&n);
+    for ( i = 1; i <= n; i++)
     {
-        for(j = 0; j <= i; j++)
+        if (i % 2 == 0)
         {
-            printf(" ");
+            sum += i;
+            printf("%d, ",i);
         }
-        for(k = 5; k >= i; k--)
-        {
-            printf("* ");
-        }
-        printf("\n");
+        
     }
+    printf("\n%d",sum);
+    
+    return 0;
 }

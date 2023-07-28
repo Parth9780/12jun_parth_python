@@ -1,11 +1,10 @@
-// WAP to print 972 to 897 using for loop
 #include<stdio.h>
-int main()
-{
-    int no;
-    for(no = 972; no >= 897; no--)
+int i,j,k;
+char c;
+for(i=1; i<=6; i++){
+    for(j=6; j>=i; j--)
     {
-        printf("%d\n",no);
+        printf("* ");
     }
-    return 0;
+    printf("\n");
 }
