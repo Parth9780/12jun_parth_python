@@ -1,9 +1,0 @@
-(1) What is software? What is software engineering?
-    --> we all know that computer is made up of hardware and software. 
-        the thing in our computer that are visible and physical called hardware and 
-        the things which are visible but not physical (it is logical)called software.
-    --> In simple terms: anything that can be stored electronically is called software.
-    --> software is a "collection of computer programs, procedures, rules, associated document
-        and concerned data with the operation of data processing system."
-    --> Software engineering is a process of the software devlopment, a devlopment process is
-        like a design the software, create software and testing a software.

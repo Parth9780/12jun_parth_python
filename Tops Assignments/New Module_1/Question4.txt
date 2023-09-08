@@ -1,9 +1,0 @@
-(4) What is DFD? Create a DFD diagram on Flipkart.
-    -->DFD (data flow diagram) is also known as bubble chart or data flow graph.
-    -->DFDs are very useful in understanding the system and can be effectively used during analysis.
-    it shows flow of data through a system visually.
-    -->DFD is a graphical representation of how data moves through a system. it shows the flow
-    of data from external entities into a system. how the data is processed within the system,
-    and the flow of data out of the system.
-    -->the purpos of a DFD is to provide a visual representation of the system's data flow that
-    is easily understood by both technical and non-technical stakeholders.
