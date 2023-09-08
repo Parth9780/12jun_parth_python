@@ -1,0 +1,26 @@
+(2) Explain types of software.
+    --> the types of software:-
+        -> i. system software-
+            -system software is a types of computer software that acts as an interface between
+            the computer hardware and application software.
+            -system software refers to a type of computer software that is designed to manage and
+            control the hardware and other software application on a computer system.
+            -Examples of system software include operation system, device drivers, utility programs,
+            and language translators.
+        -> ii. application software-
+            -unlike system software, which manages and controls the computer system's resources, application
+            software is designed to serve the specific needs and requirements of users.
+            -application software is a type of computer software that is designed to perform specific tasks of
+            functions for users.
+            -Examples of application software include word processors, spreadsheet programs, web browsers, 
+            reservation system, video players, photo edditors, etc.
+        -> iii. Programming  software-
+            -programming software is a software that is programming in hardware or non-PC devices.
+            -one of the key features of programming software is its real-time nature. it is often
+            designed to operate in real-time environments, where it must respond quickly and accurately.
+            -this type of software is often devloped using specializaed programming languages and tools.
+	-> iv. Driver software-
+	    - A driver in software provides a programming interface to control and manage specific lower-level interfaces that are often linked to a specific type of hardware, or othe	       r low-level service.
+	-> v. Middleware-
+	     - middleware is a work is same of the name like a tow object then resours is like middleware.
+	     - Example. window and microsoft the mIddlware is ms morld, ms office etc..
