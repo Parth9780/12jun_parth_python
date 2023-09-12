@@ -1,0 +1,14 @@
+-------->  What is OOP? List OOP concepts 
+-> oop is object oriented programing.
+-> oop is alwase working for the object through.
+-> oop is use the class and object concepts.
+-> oop is the different of pop language.
+-> object oriented programing language is the more secure for the pop language.
+
+-------->List oop concepts
+- class & object
+- cunstructor 
+- abstraction
+- Encapsulation
+- inharitance
+- polymorpisum

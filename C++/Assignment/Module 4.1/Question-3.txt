@@ -1,0 +1,17 @@
+ ---------> What is the difference between OOP and POP?
+ 
+ ___________> OOP <_____________
+- oop is object oriented programing language.
+- oop is more secure language.
+- oop language is working on class and object through.
+- divide the program to multiple object.
+- has access spcifiers.
+
+
+ ___________> POP <_____________
+- pop is procedural oriented programing language.
+- pop is lese secure compare to oop language.
+- pop language is working process through.
+- pop divide the program multiple function.
+- do not have access spcifiers.
+
