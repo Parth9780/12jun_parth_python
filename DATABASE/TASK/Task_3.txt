@@ -1,0 +1,90 @@
+								3.create table employe
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. CREATE TABLE `employe` (
+`emp_id` INT NOT NULL ,
+ `first name` VARCHAR(30) NOT NULL ,
+ `last name` VARCHAR(30) NOT NULL , 
+`salary` INT NOT NULL ,
+ `joineing_date` DATE NOT NULL , 
+`department` VARCHAR(30)
+);
+
+
+-> INSERT INTO `employe` (`emp_id`, `first name`, `last
+name`, `salary`, `joineing_date`, `department`) VALUES
+('1', 'john', 'abraham', '1000000', '2013-01-01', 'banking');
+
+-> INSERT INTO `employe` (`emp_id`, `first name`, `last
+name`, `salary`, `joineing_date`, `department`) VALUES
+('2', 'michael', 'clarke', '800000', '2013-01-01',
+'insurence');
+
+-> INSERT INTO `employe` (`emp_id`, `first name`, `last
+name`, `salary`, `joineing_date`, `department`) VALUES
+('3', 'roy', 'thomas', '700000', '2013-01-01', 'banking');
+
+-> INSERT INTO `employe` (`emp_id`, `first name`, `last
+name`, `salary`, `joineing_date`, `department`) VALUES
+('4', 'tom', 'jose', '600000', '2013-02-01', 'insurance');
+
+->INSERT INTO `employe` (`emp_id`, `first name`, `last
+name`, `salary`, `joineing_date`, `department`) VALUES
+('5', 'jery', 'pinto', '650000', '2013-02-01', 'insurence');
+
+-> INSERT INTO `employe` (`emp_id`, `first name`, `last
+name`, `salary`, `joineing_date`, `department`) VALUES
+('6', 'philip', 'mathew', '750000', '2013-01-01', 'service');
+
+-> INSERT INTO `employe` (`emp_id`, `first name`, `last
+name`, `salary`, `joineing_date`, `department`) VALUES
+('7', 'test name 1', '123’, '650000', '2013-01-01', service);
+
+-> INSERT INTO `employe` (`emp_id`, `first name`, `last
+name`, `salary`, `joineing_date`, `department`) VALUES
+('8', 'test name 2', 'last name', '600000', '2013-02-01',
+'insurence')
+
+---------------------------------------------------------------
+2.CREAT TABLE  `Incentive` (
+`employee_ref_id` int,
+` Incentive_date` verchar(20),
+` Incentive_amount` verchar(30)
+);
+
+->INSERT INTO  Incentive VALUES
+(01, '2013-02-01', '5000');
+
+->INSERT INTO  Incentive VALUES
+(02, '2013-02-01', '3000');
+
+->INSERT INTO  Incentive VALUES
+(03 ,'2013-02-01', '4000');
+
+->INSERT INTO  Incentive VALUES
+(01, '2013-01-01', '4500');
+
+->INSERT INTO  Incentive VALUES
+(02, '2013-01-01', '3500');
+---------------------------------------------------------------
+
+1. SELECT * FROM `employe` WHERE 'first name' ='tom';
+
+2. SELECT `first name`, `salary`, 'joineing_date' FROM `employe`;
+
+3. SELECT * FROM `employe` ORDER BY `first name` asc;
+
+4. SELECT * FROM `employe` ORDER BY salary DESC;
+
+5. SELECT * FROM `employe` WHERE `first name` IN ('john','jery');
+
+6. SELECT DEPARTMENT,MAX(SALARY)
+MAXSALARY FROM EMPLOYE GROUP BY
+DEPARTMENT ORDER BY MAXSALARY ASC;
+
+7. SELECT `FIRST NAME`,INCENTIVE_AMOUNT
+FROM EMPLOYE A INNER JOIN INCENTIVE B ON
+A.EMP_ID=B.EMP_REF_ID AND
+INCENTIVE_AMOUNT >3000;
+
+

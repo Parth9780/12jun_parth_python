@@ -1,0 +1,34 @@
+								2. create table people.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. CREATE TABLE people(
+first name varchar (20),
+Last name varchar(20),
+Address varchar (50),
+city varchar(30),
+age int
+);
+
+->INSERT INTO people VALUES
+('mickey', 'mouse', '123 fantasy way', 'anaheim', 73);
+
+->INSERT INTO people VALUES
+('bat', 'man', '321 cavem ave', 'gotham', 54);
+
+->INSERT INTO people VALUES
+('wonder', 'woman', '987 truth way', 'paradise', 39);
+
+->INSERT INTO people VALUES
+('donuld', 'duck', '555 quack street', 'mallerd', 65);
+
+->INSERT INTO people VALUES
+('bugs', 'bunny', '567 carrot street ', 'rascal', 58);
+
+->INSERT INTO people VALUES
+('wiley', 'coyote', '999 acme way', 'hairball', 32);
+
+->INSERT INTO people VALUES
+('cat', 'woman', '234 purrfect street', 'hairball', 32);
+
+->INSERT INTO people VALUES
+('tweety', 'bird', '543', 'itoltaw', 32);

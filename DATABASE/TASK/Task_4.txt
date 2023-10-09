@@ -1,0 +1,65 @@
+								4create table salesman
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. CREATE TABLE`salesperson` (
+`sno` INT NOT NULL ,
+`sname` VARCHAR(50) NOT NULL ,
+`city` VARCHAR(30) NOT NULL , 
+`comm` INT NOT NULL )
+
+->INSERT INTO `salesperson` VALUES
+ ('1001', 'peel', 'london', '12');
+
+-> INSERT INTO `salesperson` VALUES
+ ('1002', 'serres', 'san joes', '13');
+
+-> INSERT INTO `salesperson` VALUES
+('1004', 'motika', 'london', '11');
+
+-> INSERT INTO `salesperson` VALUES
+('1007', 'rafkin', 'barcelona', '15');
+
+-> INSERT INTO `salesperson` VALUES
+('1003', 'axelord', 'new york', '1');
+
+---------------------------------------------------------------------------
+
+2. create table customer.
+CREATE TABLE `customer` (`cnm` INT NOT NULL ,
+`cname` VARCHAR(50) NOT NULL , `city`
+VARCHAR(30) NOT NULL , `ratting` INT NOT NULL ,
+`sno` INT NOT NULL ) 
+
+INSERT INTO `customer` (`cnm`, `cname`, `city`,`ratting`, `sno`) VALUES 
+('201', 'hoffman', 'london', '100', '1001');
+
+INSERT INTO `customer` (`cnm`, `cname`, `city`,`ratting`, `sno`) VALUES 
+ ('202', 'giovanee', 'roe', '200', '1003');
+
+INSERT INTO `customer` (`cnm`, `cname`, `city`,`ratting`, `sno`) VALUES 
+ ('203', 'liu', 'san jose', '300', '1002');
+
+INSERT INTO `customer` (`cnm`, `cname`, `city`,`ratting`, `sno`) VALUES 
+ ('204', 'grass', 'barcelona', '300', '1007');
+
+INSERT INTO `customer` (`cnm`, `cname`, `city`,`ratting`, `sno`) VALUES 
+ ('205', 'pereira', 'reo', '100', '1004');
+
+--------------------------------------------------------------------------------------------------
+
+1. select * from order where amount> 1000;
+
+2. SELECT sname,city from salesperson where
+city='london' and comm>0.12;
+
+3. All salespeople either in Barcelona or in London.
+SELECT * FROM salesperson WHERE
+city='barcelona';
+ SELECT * FROM salesperson WHERE city=london;
+
+4. SELECT *FROM salesperson WHERE (comm > 10
+AND comm< 12);
+
+5. SELECT *FROM customer WHERE ratting>100 OR
+city='rome';
+

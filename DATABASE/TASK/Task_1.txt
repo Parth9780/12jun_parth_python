@@ -1,0 +1,43 @@
+									1. Create Table Name : Student and Exam
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. CREATE TABLE student(
+roll_num int AUTO_INCREMENT,
+name varchar(30),
+branch varchar(30),
+PRIMARY KEY (roll_num)
+);
+
+2. INSERT INTO student VALUES ('',"vijay","computer science");
+INSERT INTO student VALUES ('',"suhani","eletronic & com");
+INSERT INTO student VALUES ('',"Kriti","eletronic & com");
+
+--------------------------------------------------------------------------------------------
+
+1.2. Create Table Exam
+
+1. CREATE TABLE exam(
+s_code verchar(20) AUTO_INCREMENT,
+mark int,
+p_code varchar(30),
+roll_num int ,
+FOREIGN KEY(roll_num) REFERENCES
+student(roll_num)
+);
+
+-> INSERT INTO `exam` (`s_code`, `mark`, `p_code`, `roll_num`)
+VALUES ('cs11', '50', 'cs', '1');
+
+-> INSERT INTO `exam` (`s_code`, `mark`, `p_code`, `roll_num`)
+VALUES ('cs12', '60', 'cs', '2');
+
+-> INSERT INTO `exam` (`s_code`, `mark`, `p_code`, `roll_num`)
+VALUES ('ec101', '66', 'ec', '3')
+
+->INSERT INTO `exam` (`s_code`, `mark`, `p_code`, `roll_num`)
+VALUES ('ec102', '70', 'ec', '1');
+
+-> INSERT INTO `exam` (`s_code`, `mark`, `p_code`, `roll_num`)
+VALUES ('ec101', '45', 'ec', '2');
+
+-> INSERT INTO `exam` (`s_code`, `mark`, `p_code`, `roll_num`)
+VALUES ('ec102', '50', 'ec', '3');
