@@ -1,0 +1,25 @@
+7. What is DML Compiler in SQL?
+-> Data Manipulation Language or DML is a subset of operations used to insert, delete, and update data in a database.
+-> The SQL commands that deal with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements.
+-> DML Command:
+	. select
+	. insert
+	. update
+	. Delete
+
+-> Select syntax-
+	SELECT * 
+FROM <table_name>;
+
+-> Insert syntax-
+	INSERT INTO <table_name> ('column_name1' <datatype>, 'column_name2' <datatype>)
+VALUES ('value1', 'value2');
+
+-> Update syntax-
+	UPDATE <table_name>
+SET <column_name = value>
+WHERE condition;
+
+-> Delete Syntax-
+	DELETE FROM <table_name>
+WHERE <condition>; 

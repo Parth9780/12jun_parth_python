@@ -1,0 +1,4 @@
+5.What do you understand By Data Redundancy?
+->Data redundancy is a condition created within a database or data storage technology in which the same piece of data is held in two separate places.
+->This can mean two different fields within a single database, or two different spots in multiple software environments or platforms. Whenever data is repeated, it basically constitutes data redundancy.
+->Data redundancy can occur by accident but is also done deliberately for backup and recovery purposes

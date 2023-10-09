@@ -1,0 +1,31 @@
+6.What is DDL Interpreter?
+->Data Definition Language(DDL) is a type of SQL command used to define the components of databases using Database Management Systems.
+->DDL in DBMS is used to create or modify the database objects like tables, views etc.
+->DDL Commands :
+	. Create
+	. Alter 
+	. truncate
+	. drop
+	. Rename 
+
+-> Create systax-
+	CREATE TABLE table_name
+(
+column_1 datatype,
+column_2 datatype,
+column_3 datatype,
+....
+);
+
+->Alter syntax-
+	ALTER TABLE table_name
+ADD column_name datatype;
+
+-> Truncate syntax-
+	TRUNCATE TABLE table_name;
+
+-> Drop syntax-
+	DROP TABLE table_name;
+
+-> Rename syntax-
+	RENAME TABLE <Table Name> To <New_Table_Name>;

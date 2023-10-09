@@ -1,0 +1,15 @@
+9. What is save Point? How to create a save Point write a Query?
+-> A SAVEPOINT is a point in a transaction in which you can roll the transaction back to a certain point without rolling back the entire transaction.
+-> Savepoint is a command in SQL that is used with the rollback command.
+
+-> Syntax-
+	SAVEPOINT SAVEPOINT_NAME;
+
+
+->Query-
+	SAVEPOINT SP1;
+//Savepoint created.
+DELETE FROM Student WHERE AGE = 20;
+//deleted
+SAVEPOINT SP2;
+//Savepoint created.

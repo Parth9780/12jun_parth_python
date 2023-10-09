@@ -1,0 +1,12 @@
+4. What is MF Cod Rule of RDBMS Systems?
+Rule 1: The Information Rule.
+Rule 2: The Guaranteed Access Rule.
+Rule 3: Systematic Treatment of NULL Values.
+Rule 4: Active Online Catalog Rule.
+Rule 6: The View Updating Rule.
+Rule 7: High-level Insert, Update, and Delete.
+Rule 8: Physical Data Independence.
+Rule 9: Logical Data Independence.
+Rule 10: Integrity Independence.
+Rule 11: Distribution Independence.
+Rule 12: Non-Subversion Rule.

@@ -1,0 +1,6 @@
+3. What is Difference between DBMS and RDBMS?
+->	DBMS is a database managment system.						->	Rdbms is a Relational Database Management System.
+->	Normalizaction can'not be perfromed.							->	normalizaction can be perfromed.
+->	There is high data reduadancy.									->	There is low data reduadancy.
+-> 	provide less comparatively security of data.						-> 	provide more security of data.
+->	Difficult to modify data.										->	Easier to modify data.
